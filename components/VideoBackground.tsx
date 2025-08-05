@@ -14,7 +14,7 @@ const VideoBackground: React.FC<VideoBackgroundProps> = ({
   // Video source - prioritize local file
   const videoSources = [
     // Primary: Local file (works in development and production with proper deployment)
-    '/BGVideo1.mp4'
+    '/BGVideo1.webm',
   ];
 
   React.useEffect(() => {
